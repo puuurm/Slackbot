@@ -1,0 +1,46 @@
+PODS:
+  - SlackKit (4.3.0):
+    - SlackKit/SlackKit (= 4.3.0)
+  - SlackKit/SKClient (4.3.0):
+    - SlackKit/SKCore
+  - SlackKit/SKCore (4.3.0)
+  - SlackKit/SKRTMAPI (4.3.0):
+    - SlackKit/SKCore
+    - SlackKit/SKWebAPI
+    - Starscream (= 3.1.0)
+  - SlackKit/SKServer (4.3.0):
+    - SlackKit/SKCore
+    - SlackKit/SKWebAPI
+    - Swifter (= 1.4.6)
+  - SlackKit/SKWebAPI (4.3.0):
+    - SlackKit/SKCore
+  - SlackKit/SlackKit (4.3.0):
+    - SlackKit/SKClient
+    - SlackKit/SKCore
+    - SlackKit/SKRTMAPI
+    - SlackKit/SKServer
+    - SlackKit/SKWebAPI
+  - Starscream (3.1.0)
+  - StorageManager (0.1.5)
+  - Swifter (1.4.6)
+
+DEPENDENCIES:
+  - SlackKit
+  - StorageManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SlackKit
+    - Starscream
+    - StorageManager
+    - Swifter
+
+SPEC CHECKSUMS:
+  SlackKit: fe8f9270c9daed434c8fa8602153b538827d0972
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+  StorageManager: 520d752fdcdc83ef828fbde581ae7ba126bbfc8d
+  Swifter: 2ed278fbf7b16cbe97269eb56d8e8749b1ec4042
+
+PODFILE CHECKSUM: f8d4ef30a6a0c2de6d9030de35b6991a9c173440
+
+COCOAPODS: 1.7.0.rc.2
